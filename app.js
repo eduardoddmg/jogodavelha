@@ -11,7 +11,7 @@ var btn9 = document.getElementById('9');
 
 let contador = 1;
 let contador1 = 0;
-let contador2= 0;
+let contador2 = 0;
 let contador3 = 0;
 let contador4 = 0;
 let contador5 = 0;
@@ -359,8 +359,8 @@ function x9()
 
 function bola9 ()
 {
-    document.getElementById('space2').innerHTML = "O";
-    document.getElementById('space2').style.color = "black";
+    document.getElementById('space9').innerHTML = "O";
+    document.getElementById('space9').style.color = "black";
 }
 
 function x_ganha ()
