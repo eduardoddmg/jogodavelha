@@ -1,0 +1,56 @@
+*
+{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(174, 174, 250);
+}
+
+.main 
+{
+    width: 40%;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 90px;
+    background-color: gray;
+}
+
+button 
+{
+    border: 1px solid black;
+    width: 30%;
+    height: 22vh;
+    background-color: white;
+    cursor: pointer;
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+
+
+.button-group1,.button-group2, .button-group3
+{
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    body
+    {
+        height: 80vh;
+    }
+    .main
+    {
+        margin-top: 0px;
+        width: 100%;
+    }
+    button
+    {
+        width: 28%;
+    }
+}

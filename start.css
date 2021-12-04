@@ -1,0 +1,63 @@
+*
+{
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(174, 174, 250);
+}
+
+.main 
+{
+    width: 40%;
+    height: 70vh;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 90px;
+    background-color: white;
+}
+
+button 
+{
+    border: 1px solid black;
+    width: 30%;
+    height: 5vh;
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.h2-group 
+{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.button-group 
+{
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    body
+    {
+        height: 80vh;
+    }
+    .main
+    {
+        margin-top: 0px;
+        width: 100%;
+    }
+    button
+    {
+        width: 28%;
+    }
+}
