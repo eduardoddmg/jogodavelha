@@ -3,7 +3,6 @@
 
 
 
-![Sem jogadas](img1.png " logo")
 ![Com algumas jogadas](img2.png " logo")
 
 
